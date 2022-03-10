@@ -248,7 +248,7 @@
             <systemPropertyVariables>
               <myWorkingDir>${project.build.directory}</myWorkingDir>
             </systemPropertyVariables>
-            <argLine>-XX:MaxPermSize=128m</argLine>
+            <argLine>-XX:MaxMetaspaceSize=128m</argLine>
           </configuration>
         </plugin>
 
